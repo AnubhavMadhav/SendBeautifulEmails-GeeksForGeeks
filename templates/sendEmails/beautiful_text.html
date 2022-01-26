@@ -1,0 +1,57 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link href="{% static 'favicon/favicon.ico' %}" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <title>SendEmails</title>
+
+</head>
+
+<body>
+    
+    <div class="upper-bar" style="background-image: linear-gradient(to right, #6ad2b7 , #59e993); height: 34px;width: 100%;">
+        
+    </div>
+
+    <h4 style="margin-left: 25px; font-size:25px;font-family: 'Poppins', sans-serif !important; width:450px; word-wrap:break-word; text-decoration: none !important;">Hey <span style="text-decoration:none !important; color: #5dcdb0 !important;">{{ name }}</span>!</h4>
+    <br>
+    <h3 style="margin:0; padding: 0; margin-left: 25px; font-size:25px; font-family: 'Poppins', sans-serif !important; color: #241f20 !important; font-weight: bold !important;">Congratulations!!</h3>
+    <h4 style="margin:0; padding: 0; margin-left: 25px; font-size:25px; font-family: 'Poppins', sans-serif !important; color: #241f20 !important; font-weight: bold !important;">You have scored {{ marks }} marks in your exam.</h4>
+    <br>
+    <h4 style="margin:0; padding: 0; margin-left: 25px; font-size:25px; font-family: 'Poppins', sans-serif !important; color: #241f20 !important; font-weight: bold !important;">Your admission to {{ university }} has been confirmed.</h4>
+
+    <br>    
+    <br>
+    <div class="made-by" style="display: flex;">
+        <span style="display:inline;"><h5 style="margin:0; padding: 0; margin-left: 25px;  font-size:21px; font-family: 'Poppins', sans-serif !important; color: #808080 !important;">Made with <img height="17" width="17" src="https://i.imgur.com/ZurDQ7w.png" style="margin-top: 5px !important;" alt=""> by </span>
+        &nbsp;
+        <span style="display:inline;"><a class="myprofile" href="https://www.linkedin.com/in/anubhav-madhav/"> <img height="30" width="200" src="https://i.imgur.com/u19GAnw.png" alt=""></a></h5></span>
+    </div>
+    <br>
+    <span><h5 style="margin:0; padding: 0; margin-left: 25px; font-size:21px; font-family: 'Poppins', sans-serif !important; color: #808080 !important; font-weight: normal !important;">© 2022 Anubhav Madhav. All Rights Reserved.</h5></span>
+
+    <br>
+    <br>
+
+    <div class="upper-bar" style="background-image: linear-gradient(to right, #6ad2b7 , #59e993); height: 34px;width: 100%;">
+       
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
